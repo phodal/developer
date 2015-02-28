@@ -1,3 +1,3 @@
 # awesome-developer
 
-![Tree](./screenshot/tree.jpg)
+![Tree](./tree.jpg)

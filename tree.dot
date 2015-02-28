@@ -14,6 +14,7 @@ digraph tree
     "Graphic Design" -> "Prototype UI" -> "Product Prototype"
     "User Discovery" -> "Prototype Discovery" -> "Product Prototype"
     "Web Front-End Design" -> "Web Front-End"
+    "浏览器兼容性" -> "Web Front-End"
     "Product Prototype" -> "Web Front-End"
     "SEM" -> "Web Development"
 
@@ -42,6 +43,7 @@ digraph tree
     "Debuger" -> "Tools"
 
     "包管理" -> "部署"
+    "版本管理" -> "构建"
     "CI" -> "包发布"
     "构建工具" -> "构建"
     "构建" -> "包发布"

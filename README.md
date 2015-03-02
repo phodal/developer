@@ -34,29 +34,15 @@
 
 (ps:上面括号里面的不在书的范围内。)
 
-##Web
-###《实用负载均衡技术:网站性能优化攻略》
+##编程技能
 
->
+![Grow](grow.jpg)
 
 ##JavaScript
 
-###《EffectiveJavaScript:编写高质量JavaScript代码的68个有效方法
+![JavaScript](js.jpg)
 
->
-
-###《JavaScript语言精粹(修订版)》
-
-##Agile
-路线图:
-
-
-
-##Android
-
-
-##Cookbook
-	
-《Android开发秘籍(第2版)》
-《Android平板电脑开发秘籍》
-《PythonCookbook(第3版)(影印版)》
+##Web杂项
+- 《实用负载均衡技术:网站性能优化攻略》
+- 《网站性能监测与优化》
+- 《构建高性能Web站点》

@@ -1,0 +1,22 @@
+digraph tree
+{
+    nodesep=0.5;
+    charset="UTF-8";
+    rankdir=LR;
+    fixedsize=true;
+    node [style="rounded,filled", width=0, height=0, shape=box, fillcolor="#E5E5E5", concentrate=true]
+
+    "《JavaScript高级程序设计》" -> "《编写可维护的JavaScript》"
+    "《编写可维护的JavaScript》" -> "《JavaScript设计模式》"
+    "《EffectiveJavaScript:编写高质量JavaScript代码的68个有效方法》" -> "《JavaScript设计模式》"
+    "《JavaScript语言精粹》" -> "《JavaScript设计模式》" -> "Web Application"
+    "《单页Web应用:JavaScript从前端到后端》" -> "《Backbone.js开发秘笈》" -> "Web Application"
+    "《JavaScript DOM编程艺术》" -> "《精通jQuery》" -> "Web Application"
+    "《JavaScript DOM编程艺术》" -> "《JavaScript框架设计》"
+    "《编写可维护的JavaScript》"  -> "《JavaScript框架设计》"
+    "《Node.js实战》" -> "《RESTful Web APIs》" -> "Web Application"
+    "《MongoDB权威指南》" -> "《NoSQL精粹》" -> "Web Application"
+    "《MongoDB权威指南》" -> "《RESTful Web APIs》" -> "《Building Microservices》"
+    "《数据可视化实战:使用D3设计交互式图表》" -> "《可视化之美》"
+    "《可视化数据》" -> "《可视化之美》" -> "《视觉繁美》"
+}

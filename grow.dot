@@ -1,0 +1,15 @@
+digraph tree
+{
+    nodesep=0.5;
+    charset="UTF-8";
+    fixedsize=true;
+    node [style="rounded,filled", width=0, height=0, shape=box, fillcolor="#E5E5E5", concentrate=true]
+
+    "软件测试的艺术" -> "驱动测试开发"
+    "驱动测试开发" -> "重构与模式"
+    "代码整洁之道" -> "重构:改善既有代码的设计" 
+    "重构:改善既有代码的设计" -> "重构与模式"
+    "Head First设计模式" -> "设计模式解析" -> "重构与模式" -> "设计模式" 
+    "设计模式解析" -> "设计模式" -> "重构与模式" 
+    "建筑的永恒之道" -> "设计模式" 
+}

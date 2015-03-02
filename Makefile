@@ -1,4 +1,4 @@
 all:
-	dot -Tjpg tree.dot -o tree.jpg
-	dot -Tjpg grow.dot -o grow.jpg
-	dot -Tjpg js.dot -o js.jpg
+	dot -Tjpg dot/tree.dot -o tree.jpg
+	dot -Tjpg dot/grow.dot -o grow.jpg
+	dot -Tjpg dot/js.dot -o js.jpg

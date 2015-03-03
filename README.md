@@ -36,9 +36,19 @@
 
 ##编程技能成长路线
 
+- 《重构与模式》
+- 《代码整洁之道》
+- 《重构:改善既有代码的设计》
+
 ![Grow](grow.jpg)
 
 ##JavaScript
+
+- 《编写可维护的JavaScript》
+- 《JavaScript设计模式》
+- 《EffectiveJavaScript:编写高质量JavaScript代码的68个有效方法》
+- 《JavaScript语言精粹》
+
 
 ![JavaScript](js.jpg)
 
@@ -49,3 +59,9 @@
 - 《实用负载均衡技术:网站性能优化攻略》
 - 《网站性能监测与优化》
 - 《构建高性能Web站点》
+
+##Others
+
+- 《互联网思维的企业》
+- 《Rework》
+- 《胡林的儿女》

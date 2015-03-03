@@ -1,0 +1,15 @@
+digraph tree
+{
+    nodesep=0.5;
+    charset="UTF-8";
+    rankdir=LR;
+    fixedsize=true;
+    node [style="rounded,filled", width=0, height=0, shape=box, fillcolor="#E5E5E5", concentrate=true]
+
+    "Backbone" -> "Front-End" -> "RESTful API"
+    "jQuery" -> "Front-End"
+    "RequireJS" -> "Front-End" 
+    "Node.js" -> "RESTify" -> "RESTful API"
+    "DataBase" -> "RESTify" 
+    "RESTful API" ->  "Front-End" 
+}

@@ -2,7 +2,7 @@
 
 > Phodal's 阅读书单
 
-``注意``:以下内容主要以个人的经验(开发 + 阅读的书目) + ThoughtWorks(Martin Flower所在公司)的软件交付(外包)经验为主导。适用于大、中小企业的Web开发，流程上可能不尽相同,但是大致适用。
+``注意``:以下内容主要以个人的经验(开发 + 阅读的书目)为主导。适用于大、中小企业的Web开发，流程上可能不尽相同,但是大致适用。
 
 
 ![Awesome Web Developer](tree.jpg)
@@ -34,13 +34,16 @@
 
 (ps:上面括号里面的不在书的范围内。)
 
-##编程技能
+##编程技能成长路线
 
 ![Grow](grow.jpg)
 
 ##JavaScript
 
 ![JavaScript](js.jpg)
+
+###JavaScript Application Example
+![JavaScript App](jsapp.jpg)
 
 ##Web杂项
 - 《实用负载均衡技术:网站性能优化攻略》

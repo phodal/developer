@@ -5,7 +5,7 @@
 ``注意``:以下内容主要以个人的经验(开发 + 阅读的书目)为主导。适用于大、中小企业的Web开发，流程上可能不尽相同,但是大致适用。
 
 
-![Awesome Web Developer](tree.jpg)
+![Awesome Web Developer](images/tree.jpg)
 
 ##持续交付
 
@@ -16,14 +16,6 @@
 - 《敏捷武士：看敏捷高手交付卓越软件》
 
 > 传统软件交付(一次交付)与Web，乃至现在的软件交付很大的一个不同点在于——持续交付。
-
-当我们昨天、今天打开淘宝的时候，可能已经是不同两个版本的软件，而我们并没有察觉出来。而这个软件可能是前天、上星期写好的，如果是上上个月写好的，那么就说明阿里的软件发布模式是有问题的。
-
-这依赖于自动化测试、版本管理、自动部署等等，领域知识或者领域模式已经是经过市场充分验证了。
-
-而在我们开发阶段要做的就是测试(TDD)、修复bug、交付功能等等。
-
-而在部署以后则是性能等等。
 
 ###《持续交付:发布可靠软件的系统方法》
 
@@ -46,7 +38,7 @@
 - 《代码整洁之道》
 - 《重构:改善既有代码的设计》
 
-![Grow](grow.jpg)
+![Grow](images/grow.jpg)
 
 ##JavaScript
 
@@ -56,10 +48,10 @@
 - 《JavaScript语言精粹》
 
 
-![JavaScript](js.jpg)
+![JavaScript](images/js.jpg)
 
 ###JavaScript Application Example
-![JavaScript App](jsapp.jpg)
+![JavaScript App](images/jsapp.jpg)
 
 ##Web杂项
 - 《实用负载均衡技术:网站性能优化攻略》

@@ -1,5 +1,10 @@
+MV = mv
+
+SOURCE_PATH = ./
+OBJECT_PATH = images/
+
 all:
-	dot -Tjpg dot/tree.dot -o images/tree.jpg
-	dot -Tjpg dot/grow.dot -o images/grow.jpg
-	dot -Tjpg dot/js.dot -o images/js.jpg
-	dot -Tjpg dot/jsapp.dot -o images/jsapp.jpg
+	dot -Tgif dot/tree.dot -o images/tree.gif
+	dot -Tgif dot/grow.dot -o images/grow.gif
+	dot -Tgif dot/js.dot -o images/js.gif
+	dot -Tgif dot/jsapp.dot -o images/jsapp.gif

@@ -5,7 +5,7 @@
 ``注意``:以下内容主要以个人的经验(开发 + 阅读的书目)为主导。适用于大、中小企业的Web开发，流程上可能不尽相同,但是大致适用。
 
 
-![Awesome Web Developer](images/tree.jpg)
+![Awesome Web Developer](images/tree.gif)
 
 ##持续交付
 
@@ -38,7 +38,7 @@
 - 《代码整洁之道》
 - 《重构:改善既有代码的设计》
 
-![Grow](images/grow.jpg)
+![Grow](images/grow.gif)
 
 ##JavaScript
 
@@ -48,10 +48,10 @@
 - 《JavaScript语言精粹》
 
 
-![JavaScript](images/js.jpg)
+![JavaScript](images/js.gif)
 
 ###JavaScript Application Example
-![JavaScript App](images/jsapp.jpg)
+![JavaScript App](images/jsapp.gif)
 
 ##Web杂项
 - 《实用负载均衡技术:网站性能优化攻略》

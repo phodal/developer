@@ -64,6 +64,9 @@
 - 《可视化数据》
 
 ##机器学习
+
+![JavaScript](images/ml.gif)
+
 - 《贝叶斯思维: 统计建模的Python学习法》
 - 《利用Python进行数据分析》
 - 《Python自然语言处理》

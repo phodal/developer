@@ -1,0 +1,39 @@
+digraph tree
+{
+    nodesep=0.5;
+    charset="UTF-8";
+    rankdir=LR;
+    fixedsize=true;
+    node [style="rounded,filled", width=0, height=0, shape=box, fillcolor="#E5E5E5", concentrate=true]
+
+    subgraph cluster_0 {
+        "《可视化数据》"         
+    }
+
+    subgraph cluster_1 {
+        "《Pig编程指南》"
+        "《Hadoop权威指南》"
+    }
+
+    subgraph cluster_2 {
+        "《视觉繁美》"      
+        "《可视化之美》"      
+        "《数据可视化之美》"
+    }
+
+    subgraph cluster_3 {
+        "《利用Python进行数据分析》"      
+        "《贝叶斯思维: 统计建模的Python学习法》"  
+        "《集体智慧编程》"    
+    }
+
+    "《数据可视化实战:使用D3设计交互式图表》" -> "《视觉繁美》" [lhead=cluster_2]
+    "《可视化数据》" -> "《可视化之美》"[ltail=cluster0,lhead=cluster1]
+    "《贝叶斯思维: 统计建模的Python学习法》" -> "《可视化数据》"
+    "《Hadoop权威指南》"-> "《可视化数据》"
+    "《Pig编程指南》" -> "《可视化数据》"
+    "《Pig编程指南》" -> "《利用Python进行数据分析》"
+    "《利用Python进行数据分析》" ->  "《推荐系统》"
+    "《贝叶斯思维: 统计建模的Python学习法》" -> "《推荐系统》"
+    "《集体智慧编程》" -> "《推荐系统》"
+}

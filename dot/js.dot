@@ -17,6 +17,4 @@ digraph tree
     "《Node.js实战》" -> "《RESTful Web APIs》" -> "Web Application"
     "《MongoDB权威指南》" -> "《NoSQL精粹》" -> "Web Application"
     "《MongoDB权威指南》" -> "《RESTful Web APIs》" -> "《Building Microservices》"
-    "《数据可视化实战:使用D3设计交互式图表》" -> "《可视化之美》"
-    "《可视化数据》" -> "《可视化之美》" -> "《视觉繁美》"
 }

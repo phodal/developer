@@ -4,13 +4,49 @@ digraph tree
     charset="UTF-8";
     rankdir=LR;
     fixedsize=true;
+    compound=true;
     node [style="rounded,filled", width=0, height=0, shape=box, fillcolor="#E5E5E5", concentrate=true]
+
+    subgraph cluster_2 {
+        label = "网站前端";
+        "JavaScript"
+        "HTML"
+        "CSS"
+    }
+
+    subgraph cluster_0 {
+        label = "编程语言";
+        "Node.js"
+        "HTML"
+        "SQL/NoSQL"
+        "Java"
+        "C#"
+        "Ruby"
+        "Python"
+        "Scala"
+        "CSS"
+    }
+
+    "Java" -> "编程语言"[ltail=cluster_0]
+
+    subgraph cluster_1 {
+        label = "测试";
+        "Mock"   
+        "Stub" 
+        "Unit"
+    }
+
+    "Mock" -> "测试"
+    "Stub" -> "测试"
+    "Unit" -> "测试"
 
     "编程语言" -> "CGI"
     "CGI" -> "Web Server-Side"
+
     "JavaScript" -> "Web Front-End Design"
     "HTML" -> "Web Front-End Design"
     "CSS" -> "Web Front-End Design"
+
     "Graphic Design" -> "Prototype UI" -> "Product Prototype"
     "User Discovery" -> "Prototype Discovery" -> "Product Prototype"
     "Web Front-End Design" -> "Web Development"
@@ -18,27 +54,26 @@ digraph tree
     "Product Prototype" -> "Web Development"
     "SEM" -> "Web Development"
 
+    subgraph cluster_8 {
+        "Web Server-Side"
+        "Web Front-End"
+    }
+
     "CSS" -> "CSS Tools"
-    "JavaScript" -> "Node.js" -> "Web Server-Side"
-    "JavaScript" -> "JS库/框架使用"
-    "SQL/NoSQL" -> "Web Server-Side"
+    "Node.js" -> "Web Server-Side"[ltail=cluster_0]
+    "JavaScript" -> "JS库/框架使用" 
+
+    "SQL/NoSQL" -> "Database" -> "DBMS" -> "Web Server-Side"
+
     "APIs" -> "Web Server-Side"
     "APIs" -> "Web Front-End"
     "Web Server-Side" -> "Web Development"
     "Web Front-End" -> "Web Development"
 
-    "Java" -> "编程语言"
-    "C#" -> "编程语言"
-    "JavaScript" -> "编程语言"
-    "Ruby" -> "编程语言"
-    "Python" -> "编程语言"
-    "Scala" -> "编程语言"
+    
     "编程语言" -> "设计模式" -> "领域模式"
     "编程语言" -> "测试"
     "测试" -> "TDD" -> "自动化测试"
-    "Mock" -> "测试"
-    "Stub" -> "测试"
-    "Unit" -> "测试"
     "测试" -> "重构"
     "测试" -> "自动化测试" -> "Web Development"
     "编程语言" -> "Clean Code"
@@ -49,28 +84,58 @@ digraph tree
     "元编程" -> "DSL"
     "DSL" -> "领域模式"
 
+    subgraph cluster_3 {
+        label = "IDE";
+        "Eclipse"
+        "RubyMine"
+        "Intellij IDEA"
+        "PyCharm"
+        "WebStorm"
+        "Android Studio"
+    }
+
+    subgraph cluster_4 {
+        "IDE"
+        "Editor"
+    }
+
+    subgraph cluster_5 {
+        label = "God";
+        "Vim"
+        "Emacs"
+    }
+
     "Vim" -> "Editor"
     "Emacs" -> "Editor"
-    "Eclipse" -> "IDE"
-    "RubyMine" -> "Jetbrains Family" 
-    "Intellij IDEA" -> "Jetbrains Family" 
-    "PyCharm" -> "Jetbrains Family" 
-    "WebStorm" -> "Jetbrains Family" 
-    "Android Studio" -> "Jetbrains Family" 
 
-    "Jetbrains Family" -> "IDE"
+    "RubyMine" -> "IDE" [ltail=cluster_3 lhead=cluster_4];
+
+    
     "Editor" -> "Tools"
     "IDE ShortCut" -> "Tools"
     "IDE" -> "Tools"
     "Debuger" -> "Tools"
     "Compiler" -> "Tools"
 
+    subgraph cluster_6 {
+        label = "构建工具";
+        "Gradle"
+        "Rake"
+        "Buildr"
+        "Make"
+        "Scons"
+    }
+
+    subgraph cluster_7 {
+        label = "版本工具";
+        "SVN"
+        "git"
+    }
     "apk、pip、npm、gem、maven" -> "包管理" -> "部署"
+    "SVN" -> "版本管理"
     "git" -> "版本管理" -> "构建"
     "Bamboo" -> "CI" -> "包发布"
-    "Gradle" -> "构建工具"
-    "Rake" -> "构建工具"
-    "Buildr" -> "构建工具"
+    "Gradle" -> "构建工具"[ltail=cluster_6]
     "构建工具" -> "构建"
     "构建" -> "包发布"
     "部署" -> "自动部署"

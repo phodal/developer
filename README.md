@@ -30,8 +30,6 @@
 
 而这些都应该是自动的，所以你需要知道的东西有: 如何编写测试(Junit、Qunit、BDD、TDD..)、自动化测试(Selenium..)、版本管理(git)、配置(feature toggle)、依赖管理、部署脚本等等。
 
-(ps:上面括号里面的不在书的范围内。)
-
 ##编程技能成长路线
 
 - 《重构与模式》
@@ -59,11 +57,20 @@
 - 《构建高性能Web站点》
 - 《SEO艺术》
 
-##Others
+##架构
 - 《架构之美》
-- 《Vim实用技巧》
+
+##数据可视化
+- 《可视化数据》
+
+##机器学习
+- 《贝叶斯思维: 统计建模的Python学习法》
+- 《利用Python进行数据分析》
+- 《Python自然语言处理》
+- 《机器学习: 实用案例分析》
+
+##Others
 - 《互联网思维的企业》
 - 《Rework》
-- 《胡林的儿女》
 
 [待我代码编成，娶你为妻可好](http://www.xuntayizhan.com/person/ji-ke-ai-qing-zhi-er-shi-dai-wo-dai-ma-bian-cheng-qu-ni-wei-qi-ke-hao-wan/)

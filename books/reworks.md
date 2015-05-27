@@ -1,5 +1,8 @@
 #《REWORK》
 
+亚马逊购买: [重来:更为简单有效的商业思维](http://www.amazon.cn/gp/product/B0048EKQS0/ref=as_li_ss_tl?ie=UTF8&camp=536&creative=3132&creativeASIN=B0048EKQS0&linkCode=as2&tag=xunta-23)
+
+
 > 中文:《重来:更为简单有效的商业思维 》
 
 - 不要过早关注细节

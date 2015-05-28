@@ -9,3 +9,4 @@ all:
 	dot -Tgif dot/js.dot -o images/js.gif
 	dot -Tgif dot/ml.dot -o images/ml.gif
 	dot -Tgif dot/jsapp.dot -o images/jsapp.gif
+	dot -Tgif dot/learn.dot -o images/learn.gif

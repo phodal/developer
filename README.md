@@ -1,5 +1,9 @@
 #Awesome Web Developer路线图
 
+##架构学习路线
+
+![Architecture Roadmap](images/learn.gif)
+
 > Phodal's 阅读书单
 
 ``注意``:以下内容主要以个人的经验(开发 + 阅读的书目)为主导。适用于大、中小企业的Web开发，流程上可能不尽相同,但是大致适用。

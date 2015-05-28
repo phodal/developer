@@ -6,8 +6,8 @@ digraph G {
     store5:f0 -> store4:f0 -> store3:f0 -> store2:f0 -> store1:f0;
 
 	store5 [label="<f0> 服务 |<f1> SOA原则与模式 | 《微服务》《领域驱动设计》"; shape=Mrecord];	
-	store4 [label="<f0> 模块 |<f1> 模块化原则与模式 | 《面向服式的软件架构》"; shape=Mrecord];
+	store4 [label="<f0> 模块 |<f1> 模块化原则与模式 | 《面向服务的软件架构》"; shape=Mrecord];
 	store3 [label="<f0> 包   |<f1> 包设计原则与模式 | 《Java应用架构设计》"; shape=Mrecord];
-	store2 [label="<f0> 类   |<f1> SOLID与设计模式 | <f2> 《HeadFirst 设计模式》《设计模式》《重构与模式》"; shape=Mrecord];
+	store2 [label="<f0> 类   |<f1> SOLID与设计模式 | <f2> 《HeadFirst 设计模式》《重构与模式》《设计模式》"; shape=Mrecord];
 	store1 [label="<f0> 代码 |<f1> 代码质量 | <f2> 《代码整洁之道》《重构》"; shape=Mrecord];
 }

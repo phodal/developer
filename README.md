@@ -27,7 +27,7 @@
 
 ![Grow](images/grow.gif)
 
-##JavaScript
+##JavaScript读书路线
 
 - 《编写可维护的JavaScript》
 - 《JavaScript设计模式》
@@ -54,7 +54,7 @@
 - 《程序员必读之软件架构》
 - 《架构实战：软件架构设计的过程》
 
-##机器学习
+##机器学习读书路线
 
 ![JavaScript](images/ml.gif)
 

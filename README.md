@@ -37,7 +37,9 @@
 - 《构建高性能Web站点》
 - 《SEO艺术》
 
-##架构
+###架构学习路线
+
+![Architecture Roadmap](images/learn.gif)
 
 - 《架构之美》
 - 《面向模式的软件架构》(1,4)
@@ -54,8 +56,5 @@
 - 《Python自然语言处理》
 - 《机器学习: 实用案例分析》
 
-##架构学习路线
-
-![Architecture Roadmap](images/learn.gif)
 
 [待我代码编成，娶你为妻可好](http://www.xuntayizhan.com/person/ji-ke-ai-qing-zhi-er-shi-dai-wo-dai-ma-bian-cheng-qu-ni-wei-qi-ke-hao-wan/)

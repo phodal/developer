@@ -1,8 +1,12 @@
 #Awesome Developer
 
+
+Web Developer 成长路线图
+---
 ![Awesome Web Developer](images/tree.gif)
 
-##持续交付
+持续交付
+---
 
 - 《敏捷软件开发：原则、模式与实践》
 - 《测试驱动开发:实战与模式解析》
@@ -10,7 +14,8 @@
 - 《领域驱动设计：软件核心复杂性应对之道》
 - 《敏捷武士：看敏捷高手交付卓越软件》
 
-##编程技能成长路线
+编程技能成长路线
+---
 
 - 《重构与模式》
 - 《代码整洁之道》
@@ -18,7 +23,8 @@
 
 ![Grow](images/grow.gif)
 
-##JavaScript读书路线
+JavaScript读书路线
+---
 
 - 《编写可维护的JavaScript》
 - 《JavaScript设计模式》
@@ -28,16 +34,22 @@
 
 ![JavaScript](images/js.gif)
 
-###JavaScript Application Example
+JavaScript Application Example
+---
+
 ![JavaScript App](images/jsapp.gif)
 
-##Web杂项
+
+Web杂项
+---
+
 - 《实用负载均衡技术:网站性能优化攻略》
 - 《网站性能监测与优化》
 - 《构建高性能Web站点》
 - 《SEO艺术》
 
-###架构学习路线
+架构学习路线
+---
 
 ![Architecture Roadmap](images/learn.gif)
 
@@ -47,7 +59,9 @@
 - 《程序员必读之软件架构》
 - 《架构实战：软件架构设计的过程》
 
-##机器学习读书路线
+
+机器学习读书路线
+---
 
 ![JavaScript](images/ml.gif)
 

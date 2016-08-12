@@ -1,11 +1,13 @@
-#Web Developer Roadmap
+Web Developer Roadmap
+===
 
 成长路线已经汇集到Growth，Github见：[https://github.com/phodal/growth](https://github.com/phodal/growth)
 
 阅读书单：[https://github.com/phodal/booktree](https://github.com/phodal/booktree)
 
-##Web Developer 成长路线图
+Web Developer 成长路线图
 ---
+
 ![Awesome Web Developer](images/tree.gif)
 
 持续交付
@@ -74,7 +76,8 @@ Web杂项
 - 《机器学习: 实用案例分析》
 - 《驾驭文本:文本的发现、组织和处理》
 
-## License
+License
+---
 
 © 2015~2016 [Phodal Huang](http://www.phodal.com). This code is distributed under the MIT license. See `LICENSE.txt` in this directory.
 
